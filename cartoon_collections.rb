@@ -23,7 +23,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |ele|
     valid_calls.select do |ele1|
      if ele == ele1 
-         ele 
+         return ele 
     else 
       nil 
     end
