@@ -25,7 +25,7 @@ def find_valid_calls(planeteer_calls)
      if ele == ele1 
          return ele 
     else 
-      return nil 
+      
     end
   end
 end
